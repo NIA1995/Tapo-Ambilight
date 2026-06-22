@@ -2,6 +2,8 @@
 
 # Tapo Ambilight
 
+![demo](docs/images/demo.gif)
+
 Sync your PC screen to a **TP-Link Tapo L930** RGBIC light strip — **per-zone**
 (a color gradient that follows the edges of your screen), with **no blinking**.
 
@@ -29,7 +31,7 @@ updates segment colors **in place without restarting the effect** (see
 
 - Windows (the tray + autostart use Windows APIs; the engine/CLI are cross-platform)
 - Python 3.10+
-- A Tapo L930, with **Me → Tapo Lab → Third-Party Compatibility** enabled in the
+- A Tapo L930, with **Me → Third-Party Service → Third-Party Compatibility** enabled in the
   Tapo app
 - The strip's local IP (reserve it in your router so it doesn't change)
 
