@@ -82,9 +82,9 @@ python cli.py             # 동기화 실행, 실효 fps + 전송 지연 출력
 | `min_value` | 최소 밝기 바닥값 | 10 |
 | `band_frac` | 가장자리에서 색을 따올 깊이 | 0.15 |
 | `display_index` | 0 = 전체 모니터, 1/2 = 개별 | 0 |
-| `corners`, `last_segment` | 보정 결과 — **직접 편집 금지** | 마법사로 생성 |
+| `corners`, `last_segment` | 보정 결과 — **직접 편집 금지** | 보정 도구로 생성 |
 
-`corners` / `last_segment`는 보정에서 나옵니다. 스트립을 물리적으로 다시 감았을 때만 마법사를 재실행하세요.
+`corners` / `last_segment`는 보정에서 나옵니다. 스트립을 물리적으로 다시 설치 했을 때만 보정 도구를 재실행하세요.
 
 ## 프로젝트 구성
 
