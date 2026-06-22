@@ -2,6 +2,8 @@
 
 # Tapo Ambilight
 
+![demo](docs/images/demo.gif)
+
 PC 화면 색을 **TP-Link Tapo L930** RGBIC 스트립에 **존별로**(화면 가장자리를 따라 흐르는 색 그라디언트), **깜빡임 없이** 동기화합니다.
 
 L930에는 공식 "화면 동기화"/엔터테인먼트 모드가 없습니다. 이 프로젝트는 로컬 API의 `set_segment_effect`를 통해 스트립을 제어하는데, 이 경로만이 **효과를 재시작하지 않고 세그먼트 색을 제자리에서 갱신**합니다(리버스 엔지니어링 기록은 [`docs/PROTOCOL.md`](docs/PROTOCOL.md) 참고).
@@ -22,7 +24,7 @@ L930에는 공식 "화면 동기화"/엔터테인먼트 모드가 없습니다. 
 
 - Windows (트레이·자동실행은 Windows API 사용; 엔진/CLI는 크로스 플랫폼)
 - Python 3.10 이상
-- Tapo L930, 그리고 Tapo 앱에서 **Me → Tapo Lab → Third-Party Compatibility** 활성화
+- Tapo L930, 그리고 Tapo 앱에서 **나 → 제3자 서비스 → 타사 서비스 호환성** 활성화
 - 스트립의 로컬 IP (공유기에서 고정 할당 권장 — IP가 바뀌지 않도록)
 
 ## 설치
