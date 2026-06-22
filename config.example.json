@@ -1,0 +1,23 @@
+{
+  "username": "your-tapo-email@example.com",
+  "password": "your-tapo-password",
+  "ip": "192.168.0.42",
+
+  "brightness": 80,
+  "saturation_boost": 1.8,
+  "min_value": 10,
+  "min_sat": 30,
+
+  "display_index": 0,
+  "reverse": false,
+
+  "target_fps": 12,
+  "smoothing": 0.6,
+  "downsample_stride": 8,
+  "min_change": 3,
+  "band_frac": 0.15,
+  "num_bands": 25,
+
+  "corners": { "TR": 6, "BR": 10, "BL": 25, "TL": 29 },
+  "last_segment": 35
+}

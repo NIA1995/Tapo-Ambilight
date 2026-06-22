@@ -1,0 +1,5 @@
+tapo>=0.9.0
+mss
+numpy
+pystray
+pillow
