@@ -117,7 +117,7 @@ or Govee DreamView). For ambient use, raise `smoothing` and enjoy. See
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Replace `<YOUR NAME>` with your own.
+MIT — see [LICENSE](LICENSE).
 
 ## Acknowledgements
 
