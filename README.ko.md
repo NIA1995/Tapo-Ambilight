@@ -102,7 +102,7 @@ run.bat                Windows용 콘솔 없는 런처
 
 ## 라이선스
 
-MIT — [LICENSE](LICENSE) 참고. `<YOUR NAME>`을 본인 이름으로 바꾸세요.
+MIT — [LICENSE](LICENSE) 참고.
 
 ## 감사의 말
 
